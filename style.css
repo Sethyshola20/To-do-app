@@ -1,0 +1,33 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+#div-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 15vh);
+    grid-column-gap: 2vw;
+    grid-row-gap: 4vw;
+    justify-items: center;
+    align-content: center;
+    height: 50vh;
+}
+
+.wrapper-1, .wrapper-2, .wrapper-3, .wrapper-4{
+    width: 90%;
+    background: darkgray;
+    border-radius: 5%;
+    margin: 2%;
+}
+.wrapper-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+a {
+    text-decoration: none;
+}
+
+h2 {
+    background: darkgray;
+}
